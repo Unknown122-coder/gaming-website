@@ -18,4 +18,4 @@ An immersive gaming-themed website with animated backgrounds, music, and modern 
 
 ## 🔗 Live Demo
 
-👉 [View Website](https://Unknown122-coder.github.io/gaming-website/)
+👉 [View Website](https://unknown122-coder.github.io/gaming-website/)

@@ -493,20 +493,37 @@ header{
         font-size: 12px;
         padding: 0 5px;
     }
-    .hero-info{
+    .hero-section {
+        height: 100vh;
+        width: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .hero-info {
+        position: absolute;
+        top: 20%;
         left: 5%;
         right: 5%;
-        top: 60px;
+        text-align: left;
+        z-index: 2;
     }
-    .hero-section h1{
-        font-size: 60px;
+    .hero-info h1 {
+        font-size: 10vw;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-weight: 900;
+        margin-bottom: 15px;
+        line-height: 1.1;
         word-break: break-word;
-        max-width: 90vw;
+    } 
+    .next-btn {
+        width: 120px;
+        height: 120px;
+        font-size: 18px;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10%;
     }
-    .next-btn{
-        left: 25%;
-        top: 40%;
-    }
+      
     .about-section{
         margin: 0;
     }

@@ -495,9 +495,13 @@ header{
     }
     .hero-info{
         left: 5%;
+        right: 5%;
+        top: 60px;
     }
     .hero-section h1{
-        font-size: 90px;
+        font-size: 60px;
+        word-break: break-word;
+        max-width: 90vw;
     }
     .next-btn{
         left: 25%;

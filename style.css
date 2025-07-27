@@ -580,4 +580,50 @@ header{
         text-align: right;
         white-space: nowrap;
     }
+    .card {
+        height: auto;
+        min-height: 300px;
+        padding: 10px;
+        border-radius: 20px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .card h1 {
+        font-size: 8vw;
+        top: auto;
+        left: auto;
+        position: static;
+        margin: 10px 0 5px 0;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .card p {
+        font-size: 14px;
+        line-height: 1.4;
+        position: static;
+        max-width: 100%;
+        color: lightgray;
+        margin-bottom: 10px;
+    }
+    .card button {
+        padding: 8px 20px;
+        font-size: 13px;
+        bottom: auto;
+        left: auto;
+        position: static;
+        margin-bottom: 10px;
+    }
+    .card video {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 0;
+        opacity: 0.3; 
+    } 
 }

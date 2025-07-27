@@ -523,7 +523,6 @@ header{
         transform: translateX(-50%);
         bottom: 10%;
     }
-      
     .about-section{
         margin: 0;
     }
@@ -569,5 +568,16 @@ header{
     .stones-img{
         margin-top: 80%;
         width: 400px;
+    }
+    .gaming-text {
+        font-size: 12vw;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 0;
+        position: absolute;
+        right: 5%;
+        bottom: 10%;
+        line-height: 1.1;
+        text-align: right;
+        white-space: nowrap;
     }
 }
